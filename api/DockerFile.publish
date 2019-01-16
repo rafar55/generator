@@ -1,0 +1,12 @@
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
+
+WORKDIR /api
+
+COPY bin/release/netcoreapp2.0/publish .
+
+ENTRYPOINT ["dotnet","api.dll"]
+
+
+
+
+
