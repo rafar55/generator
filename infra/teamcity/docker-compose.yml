@@ -7,7 +7,7 @@ services:
       - teamcity-server-datadir:/data/teamcity_server/datadir
       - teamcity-server-logs:/opt/teamcity/logs
     ports:
-      - 8111:8111
+      - 4407:8111
   teamcity-agent:
     image: jetbrains/teamcity-agent:2017.1.2
     environment:
