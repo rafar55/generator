@@ -6,7 +6,6 @@ RUN dotnet restore
 
 COPY . .
 RUN dotnet build
-ENV TEAMCITY_PROJECT_NAME=integration
 
 ENTRYPOINT dotnet test --verbosity=normal
 
