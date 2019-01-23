@@ -1,0 +1,2 @@
+dotnet sonarscanner begin /k:"NetCore-Sample" /d:sonar.host.url="https://sonarqube73.applaudostudios.com" /d:sonar.login="ed880d08ad01a65a9715910fb0c8587c0c900617"
+dotnet sonarscanner end  /d:sonar.login="ed880d08ad01a65a9715910fb0c8587c0c900617"
